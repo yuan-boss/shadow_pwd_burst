@@ -4,7 +4,7 @@
 
 ## 声明
 
-> 本工具仅供用于学习爆破，严禁用于非授权爆破
+> 本工具可以完成对linux/kali系统的密码爆破，项目中有测试的字典，直接使用命令`python shadow_pwd_burst`即可测试，如果需要使用自己的字典，就需要使用 -b与-d参数来指定字典路径
 
 
 
@@ -30,6 +30,16 @@ shadow_pwd.txt是测试的密文字典
 
 
 ## 使用帮助
+
+**安装库**
+
+```
+pip install -r requirements.txt
+```
+
+
+
+**帮助文档**
 
 ```
 可以通过-h参数查看具体的参数用法：python shadow_pwd_burst.py -h
